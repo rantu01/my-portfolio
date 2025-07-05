@@ -13,7 +13,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Animated title */}
           <div className="relative mb-16 group">
-            <h2 className="text-5xl md:text-7xl bg-clip-text font-bold text-teal-500 text-center">
+            <h2 className="text-4xl md:text-5xl bg-clip-text font-bold text-teal-500 text-center">
               About Rantu
             </h2>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-teal-400 to-blue-500 rounded-full transition-all duration-500 group-hover:w-48"></div>
