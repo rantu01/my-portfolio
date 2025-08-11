@@ -26,7 +26,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-500 rounded-2xl transform rotate-3 group-hover:rotate-6 transition duration-500"></div>
               <div className="relative w-full h-full bg-gray-700 rounded-2xl overflow-hidden border-4 border-gray-800 shadow-xl">
                 <img
-                  src="https://i.ibb.co/4wnZwHpz/image.png"
+                  src="https://i.ibb.co.com/VpjJwnwL/Rantu-Photo.jpg"
                   alt="Rantu Mondal"
                   className="w-full h-full object-cover"
                 />

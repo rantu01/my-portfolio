@@ -1,6 +1,6 @@
 import { Link } from "react-router"; // ✅ react-router-dom এর Link ইউজ করো
 import srimg from "../../public/service-review.jpg";
-import a5 from "../../public/a5-1.jpg";
+import a5 from "../../public/about.png";
 import grdn from "../../public/garden-tips1.jpg";
 import FadeInSection from "../Component/FadeInSection";
 
@@ -19,9 +19,9 @@ const projects = [
   },
   {
     id: 3,
-    name: "Task Management",
+    name: "SoulMate",
     image: a5,
-    detailsPath: "/projects/task",
+    detailsPath: "/projects/SoulMate",
   },
 ];
 
