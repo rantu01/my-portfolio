@@ -5,6 +5,7 @@ import ProjectDetailsServiceReview from "../Component/ProjectDetailsServiceRevie
 import ProjectDetailsGardenTips from "../Component/ProjectDetailsGardenTips";
 import ProjectDetailsA5 from "../Component/ProjectDetailsSoulMate";
 import Contact from "../Component/Contact";
+import ProjectDetails from "../Component/ProjectDetails";
 
 export const router = createBrowserRouter([
   {
@@ -14,9 +15,10 @@ export const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       
 
-      { path: "/projects/service-review", element: <ProjectDetailsServiceReview /> },
-      { path: "/projects/garden-Tips", element: <ProjectDetailsGardenTips></ProjectDetailsGardenTips> },
-      { path: "/projects/SoulMate", element:  <ProjectDetailsA5></ProjectDetailsA5>},
+      // { path: "/projects/service-review", element: <ProjectDetailsServiceReview /> },
+      // { path: "/projects/garden-Tips", element: <ProjectDetailsGardenTips></ProjectDetailsGardenTips> },
+      // { path: "/projects/SoulMate", element:  <ProjectDetailsA5></ProjectDetailsA5>},
+      { path: "/projects/:id", element: <ProjectDetails /> },
       { path: "/contact", element:  <Contact></Contact>},
     ],
   },
