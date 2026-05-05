@@ -58,7 +58,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-b from-gray-800 to-gray-900 text-gray-200"
+      className="py-20 bg-gray-900  text-gray-200"
     >
       <FadeInSection>
         <div className="max-w-4xl mx-auto px-4">

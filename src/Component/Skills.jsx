@@ -24,14 +24,14 @@ const Skills = () => (
   >
     <FadeInSection>
       <div>
-        <div className="max-w-6xl mx-auto text-center mb-10">
+        <div className="container mx-auto text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-bold text-teal-500 mb-4">
             My Skills
           </h2>
           <p className="text-lg md:text-xl">Technologies & Tools I use:</p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
+        <div className="container mx-auto">
           <Marquee speed={50} gradient={false} pauseOnHover>
             <div className="flex space-x-16 items-center text-6xl">
               {/* Frontend */}

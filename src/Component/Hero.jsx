@@ -6,8 +6,24 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-black text-white px-4"
+      className="relative overflow-hidden h-screen flex flex-col justify-center items-center text-white px-4 -mt-10"
     >
+      {/* Background video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover -z-20"
+      >
+        <source src="/14519632_3840_2160_25fps.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Gradient overlay to preserve readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-black/60 -z-10" aria-hidden="true" />
+      {/* Bottom blend into About section */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-36 bg-gradient-to-b from-transparent via-black/70 to-[#050a14]" aria-hidden="true" />
       {/* Profile Photo with Framer Motion animation */}
       <motion.img
         src="/profile-photo.jpg"

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { projectsData } from "../data/projectsData"; // Data file-ti import korun
+import projects from "../data/json/projects.json"; // Load projects from JSON
 
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-900 text-gray-200">
-      <div className="max-w-6xl mx-auto text-center mb-16 px-4">
+      <div className="container mx-auto text-center mb-16 px-4">
         <h2 className="text-4xl md:text-5xl font-extrabold text-teal-500 mb-3 tracking-wide">
           My Projects
         </h2>
@@ -15,8 +15,8 @@ const Projects = () => {
       </div>
 
       {/* Grid container: 1 column for mobile, 3 columns for large screens */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 justify-items-center">
-        {projectsData.map((project) => (
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 justify-items-center">
+        {projects.map((project) => (
           <div
             key={project.id}
             className="bg-gray-800 rounded-2xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-[1.03] hover:shadow-2xl w-full"
@@ -25,7 +25,7 @@ const Projects = () => {
             {/* Project Image */}
             <div className="relative h-72">
               <img
-                src={project.images[0]} // JSON-er images array theke prothom image-ti nibe
+                src={project.images[0]}
                 alt={project.title}
                 className="w-full h-full object-cover object-center"
               />

@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const navItems = [
     { id: 1, name: "Home", to: "/#" },
@@ -12,8 +13,15 @@ const Navbar = () => {
     { id: 5, name: "Contact", to: "/#contact" },
   ];
 
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 0);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="fixed w-full z-50 bg-gray-900 text-white shadow-md">
+    <nav className={`fixed w-full z-50 text-white ${scrolled ? "bg-gray-900 shadow-md" : "bg-transparent"}`}>
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold text-teal-400 cursor-pointer">
           <Link smooth to="/#" onClick={() => setIsOpen(false)}>Rantu Mondal</Link>

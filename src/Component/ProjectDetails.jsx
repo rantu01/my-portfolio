@@ -2,11 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import ModalImage from "react-modal-image";
 import FadeInSection from "./FadeInSection";
-import { projectsData } from "../data/projectsData";
+import projects from "../data/json/projects.json";
 
 const ProjectDetails = () => {
   const { id } = useParams(); // URL theke id nibe (e.g., /project/soulmate)
-  const project = projectsData.find((p) => p.id === id);
+  const project = projects.find((p) => p.id === id);
 
   if (!project) {
     return <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white text-2xl">Project Not Found</div>;
