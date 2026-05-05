@@ -1,5 +1,35 @@
 [
   {
+    "id": "banglaco",
+    "title": "Banglaco",
+    "description": "Banglaco.com began not in a boardroom, but on the rugged trails of the Himalayas and the pristine beaches of the Andaman. Our founders, seasoned explorers themselves, realized that the modern voyager sought more than just a destination—they sought a narrative. Over two decades, we've evolved from a small boutique agency into a premier digital concierge, curating high-end adventures that respect local cultures and preserve natural wonders. We don't just book trips; we architect life-changing experiences.",
+    "techStack": ["Branding", "Full-Stack", "UX/UI", "Content Strategy"],
+    "links": {
+      "live": "https://banglaco.com"
+    },
+    "challenges": [
+      "Crafting a narrative-driven UX for luxury travel",
+      "Balancing high-quality imagery with performant delivery",
+      "Designing booking flows that respect local providers"
+    ],
+    "futurePlans": [
+      "Personalized trip recommendations",
+      "Localized experiences with partner integration"
+    ],
+    "thumbnail": "/Thambnail/banglaco.png",
+    "images": [
+      "/banglaco/banglaco1.png",
+      "/banglaco/banglaco2.png",
+      "/banglaco/banglaco3.png",
+      "/banglaco/banglaco4.png",
+      "/banglaco/banglaco5.png",
+      "/banglaco/banglaco6.png",
+      "/banglaco/banglaco7.png",
+      "/banglaco/banglaco8.png",
+      "/banglaco/banglaco9.png"
+    ]
+  },
+  {
     "id": "care-hive",
     "title": "Care-Hive (All-in-One Healthcare)",
     "description": "A comprehensive health and care platform where I served as the Team Leader. It integrates AI-powered features, remote consultations, and holistic wellness plans in one ecosystem.",
@@ -20,6 +50,7 @@
       "Multi-language support for rural area accessibility",
       "Pharmacy integration for direct medicine delivery from prescriptions"
     ],
+    "thumbnail": "/Thambnail/carehive.png",
     "images": [
       "/care%20(1).png",
       "/care%20(2).png",
@@ -54,11 +85,13 @@
       "Dashboard analytics for admin",
       "Push notifications for requests"
     ],
+    "thumbnail": "Thambnail/soulmate.png",
     "images": [
       "/soulmate.png",
       "/about.png",
       "/biodatas.png",
-      "/contact.png"
+      "/contact.png",
+      "/biodatasDetails.png"
     ]
   },
   {
@@ -81,6 +114,7 @@
       "Gardening calendar",
       "Regional plant recommendations based on location"
     ],
+    "thumbnail": "/Thambnail/garden tips.png",
     "images": [
       "/garden-tips1.jpg",
       "/garden-tips3.jpg",
@@ -108,6 +142,7 @@
       "Admin dashboard",
       "Improve UI responsiveness"
     ],
+    "thumbnail": "/Thambnail/SRS.png",
     "images": [
       "/service-ss1.jpg",
       "/service-ss2.jpg",

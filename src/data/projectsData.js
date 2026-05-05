@@ -25,7 +25,36 @@ import care7 from "../../public/care (7).png";
 import care8 from "../../public/care (8).png";
 import care9 from "../../public/care (9).png";
 
+import bang1 from "../../public/banglaco/banglaco1.png";
+import bang2 from "../../public/banglaco/banglaco2.png";
+import bang3 from "../../public/banglaco/banglaco3.png";
+import bang4 from "../../public/banglaco/banglaco4.png";
+import bang5 from "../../public/banglaco/banglaco5.png";
+import bang6 from "../../public/banglaco/banglaco6.png";
+import bang7 from "../../public/banglaco/banglaco7.png";
+import bang8 from "../../public/banglaco/banglaco8.png";
+import bang9 from "../../public/banglaco/banglaco9.png";
+
 export const projectsData = [
+  {
+    id: "banglaco",
+    title: "Banglaco",
+    description: "Banglaco.com began not in a boardroom, but on the rugged trails of the Himalayas and the pristine beaches of the Andaman. Our founders, seasoned explorers themselves, realized that the modern voyager sought more than just a destination—they sought a narrative. Over two decades, we've evolved from a small boutique agency into a premier digital concierge, curating high-end adventures that respect local cultures and preserve natural wonders. We don't just book trips; we architect life-changing experiences.",
+    techStack: ['Branding', 'Full-Stack', 'UX/UI', 'Content Strategy'],
+    links: {
+      live: "https://banglaco.com",
+    },
+    challenges: [
+      "Crafting a narrative-driven UX for luxury travel",
+      "Balancing high-quality imagery with performant delivery",
+      "Designing booking flows that respect local providers"
+    ],
+    futurePlans: [
+      "Personalized trip recommendations",
+      "Localized experiences with partner integration"
+    ],
+    images: [bang1, bang2, bang3, bang4, bang5, bang6, bang7, bang8, bang9]
+  },
   {
     id: "care-hive",
     title: "Care-Hive (All-in-One Healthcare)",

@@ -18,16 +18,16 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="group relative bg-gray-800 rounded-2xl shadow-xl overflow-hidden transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-teal-500/20 w-full"
+            className="group relative bg-gray-800 rounded-2xl shadow-xl overflow-hidden transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-teal-800/20 w-full"
             style={{ height: "32rem" }}
           >
             {/* Animated Border Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-r from-teal-500/0 via-teal-500/0 to-teal-500/0 rounded-2xl group-hover:from-teal-500/30 group-hover:via-teal-500/20 group-hover:to-teal-500/0 transition-all duration-500 pointer-events-none"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-teal-800/0 via-teal-800/0 to-teal-800/0 rounded-2xl group-hover:from-teal-800/30 group-hover:via-teal-800/20 group-hover:to-teal-800/0 transition-all duration-500 pointer-events-none"></div>
             
             {/* Project Image */}
-            <div className="relative h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden">
               <img
-                src={project.images[0]}
+                src={project.thumbnail ? project.thumbnail : (project.images && project.images[0])}
                 alt={project.title}
                 className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-110"
               />
