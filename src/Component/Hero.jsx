@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
+  const [videoReady, setVideoReady] = useState(false);
   return (
     <section
       id="home"
@@ -14,6 +15,7 @@ const Hero = () => {
         muted
         loop
         playsInline
+        onCanPlay={() => setVideoReady(true)}
         className="absolute inset-0 w-full h-full object-cover -z-20"
       >
         <source src="/14519632_3840_2160_25fps.webm" type="video/webm" />
@@ -22,8 +24,13 @@ const Hero = () => {
 
       {/* Gradient overlay to preserve readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-black/60 -z-10" aria-hidden="true" />
+
+      {/* Black fallback while video is loading (behind content) */}
+      <div className={`absolute inset-0 bg-black z-10 transition-opacity duration-500 ${videoReady ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} aria-hidden="true" />
+
       {/* Bottom blend into About section */}
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-36 bg-gradient-to-b from-transparent via-black/70 to-[#050a14]" aria-hidden="true" />
+      <div className="relative z-10 flex flex-col items-center">
       {/* Profile Photo with Framer Motion animation */}
       <motion.img
         src="/profile-photo.jpg"
@@ -84,6 +91,7 @@ const Hero = () => {
       >
         Download Resume
       </a>
+      </div>
     </section>
   );
 };

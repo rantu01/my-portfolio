@@ -13,7 +13,7 @@ const ProjectDetails = () => {
   }
 
   return (
-    <section className="min-h-screen py-12 md:py-20 px-4 md:px-8 bg-gray-900 text-gray-200">
+    <section className="min-h-screen -mt-10 py-12 md:py-30 px-4 md:px-8 bg-gray-900 text-gray-200">
       <FadeInSection>
         <div className="max-w-6xl mx-auto">
           {/* Header */}
