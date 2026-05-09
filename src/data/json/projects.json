@@ -3,7 +3,12 @@
     "id": "banglaco",
     "title": "Banglaco",
     "description": "Banglaco.com began not in a boardroom, but on the rugged trails of the Himalayas and the pristine beaches of the Andaman. Our founders, seasoned explorers themselves, realized that the modern voyager sought more than just a destination—they sought a narrative. Over two decades, we've evolved from a small boutique agency into a premier digital concierge, curating high-end adventures that respect local cultures and preserve natural wonders. We don't just book trips; we architect life-changing experiences.",
-    "techStack": ["Branding", "Full-Stack", "UX/UI", "Content Strategy"],
+    "techStack": [
+      "Branding",
+      "Full-Stack",
+      "UX/UI",
+      "Content Strategy"
+    ],
     "links": {
       "live": "https://banglaco.com"
     },
@@ -33,7 +38,12 @@
     "id": "care-hive",
     "title": "Care-Hive (All-in-One Healthcare)",
     "description": "A comprehensive health and care platform where I served as the Team Leader. It integrates AI-powered features, remote consultations, and holistic wellness plans in one ecosystem.",
-    "techStack": ["MERN Stack", "OpenAI API", "Tailwind CSS", "Firebase"],
+    "techStack": [
+      "MERN Stack",
+      "OpenAI API",
+      "Tailwind CSS",
+      "Firebase"
+    ],
     "links": {
       "live": "https://care-hive-chi.vercel.app/",
       "frontend": "https://github.com/rantu01/carehive",
@@ -67,7 +77,12 @@
     "id": "soulmate",
     "title": "SoulMate Project",
     "description": "SoulMate is a full-stack matrimony web application where users can register, create biodata, explore profiles, request contact info, and manage favorites. Admins can approve premium requests and manage platform content.",
-    "techStack": ["MERN Stack", "Firebase Auth", "JWT", "Tailwind CSS"],
+    "techStack": [
+      "MERN Stack",
+      "Firebase Auth",
+      "JWT",
+      "Tailwind CSS"
+    ],
     "links": {
       "live": "https://soulmate-here.surge.sh/",
       "frontend": "https://github.com/rantu01/soulmate-frontend",
@@ -98,7 +113,13 @@
     "id": "garden-tips",
     "title": "Garden Tips",
     "description": "A gardening community platform where users can share tips, post gardening advice, and connect with other enthusiasts.",
-    "techStack": ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
     "links": {
       "live": "https://garden-tips.surge.sh/",
       "frontend": "https://github.com/rantu01/garden-tips",
@@ -126,7 +147,13 @@
     "id": "service-review",
     "title": "Service Review System",
     "description": "A full-stack web app where users can add services, post/manage reviews, and explore others' reviews with secure authentication.",
-    "techStack": ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
     "links": {
       "live": "https://service-review-system.surge.sh/",
       "frontend": "https://github.com/rantu01/SRS",
@@ -148,6 +175,73 @@
       "/service-ss2.jpg",
       "/service-ss3.jpg",
       "/service-ss4.jpg"
+    ]
+  },
+  {
+    "id": "hansi",
+    "title": "Hansi Transa+",
+    "description": "A small project showcasing Hansi's UI screens and interactions.",
+    "techStack": [
+      "React",
+      "CSS",
+      "Branding",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "links": {
+      "live": "https://www.hansitrans.com/",
+      "frontend": "https://github.com/rantu01",
+      "backend": "https://github.com/rantu01"
+    },
+    "challenges": [
+      "Responsive layout",
+      "Image optimization"
+    ],
+    "futurePlans": [
+      "Add live demo",
+      "Add detailed case study"
+    ],
+    "thumbnail": "/Thambnail/hansi.png",
+    "images": [
+      "/hansi/1.png",
+      "/hansi/2.png",
+      "/hansi/3.png",
+      "/hansi/4.png",
+      "/hansi/5.png"
+    ]
+  },
+  {
+    "id": "potato",
+    "title": "Potato",
+    "description": "Potato project gallery demonstrating layouts and imagery.",
+    "techStack": [
+      "React",
+      "CSS",
+      "Next.js",
+      "Tailwind CSS",
+      "Branding"
+    ],
+    "links": {
+      "live": "https://potato-solutions.rantumondal.dev",
+      "frontend": "https://github.com/rantu01",
+      "backend": "https://github.com/rantu01"
+    },
+    "challenges": [
+      "Image lazy-loading",
+      "Cross-browser styling"
+    ],
+    "futurePlans": [
+      "Add project write-up",
+      "Improve accessibility"
+    ],
+    "thumbnail": "/Thambnail/potato.png",
+    "images": [
+      "/potato/1.png",
+      "/potato/2.png",
+      "/potato/3.png",
+      "/potato/4.png",
+      "/potato/5.png",
+      "/potato/6.png"
     ]
   }
 ]
